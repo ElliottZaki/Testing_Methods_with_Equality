@@ -14,5 +14,4 @@ describe Present do
             expect { subject.unwrap() }.to raise_error "No contents have been wrapped."
         end
     end
-
 end
